@@ -29,9 +29,15 @@ inconsistent format: example https://github.com/DrishtiShrrrma/nueva/blob/b6632e
 
 
 
-Codegemma : prompt 1: problematoc cases:
+Codegemma : prompt 1: problematic cases:
 
 1. Didn't produce summary in Arabic in many instances: example: 1. https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L15 2. https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L31 3. https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L191   (but did produce summary in Arabic in a few instances! example: https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L207)
 2. Even Hindi Summary is compromised at times: https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L32 --- text is generated in English only
 3. inconsistent format: see code summary generrated in all the target languages for this partcular sample: https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L35
 
+Codegemma: prompt 2:
+
+1. https://github.com/DrishtiShrrrma/nueva/blob/02253119d6dc0ce5b5e22cff76a1088701ebcb04/prompt_analysis/codegemma/prompt2/all_languages_prompt2_combined_codegemma-7b-it.json#L15  ----- garbled text ---- “ibrary” and “mux” awkwardly inserted
+2. https://github.com/DrishtiShrrrma/nueva/blob/02253119d6dc0ce5b5e22cff76a1088701ebcb04/prompt_analysis/codegemma/prompt2/all_languages_prompt2_combined_codegemma-7b-it.json#L48 ---- repetition!
+3. i) https://github.com/DrishtiShrrrma/nueva/blob/02253119d6dc0ce5b5e22cff76a1088701ebcb04/prompt_analysis/codegemma/prompt2/all_languages_prompt2_combined_codegemma-7b-it.json#L63, ii) https://github.com/DrishtiShrrrma/nueva/blob/02253119d6dc0ce5b5e22cff76a1088701ebcb04/prompt_analysis/codegemma/prompt2/all_languages_prompt2_combined_codegemma-7b-it.json#L47 , iii) https://github.com/DrishtiShrrrma/nueva/blob/02253119d6dc0ce5b5e22cff76a1088701ebcb04/prompt_analysis/codegemma/prompt2/all_languages_prompt2_combined_codegemma-7b-it.json#L79 , iv) https://github.com/DrishtiShrrrma/nueva/blob/02253119d6dc0ce5b5e22cff76a1088701ebcb04/prompt_analysis/codegemma/prompt2/all_languages_prompt2_combined_codegemma-7b-it.json#L111 ---- Entire/most summary is in English.
+4. 
