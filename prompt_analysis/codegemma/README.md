@@ -31,7 +31,7 @@ inconsistent format: example https://github.com/DrishtiShrrrma/nueva/blob/b6632e
 
 Codegemma : prompt 1: problematoc cases:
 
-1. Didn't produce summary in Arabic in some instances: example: 1. https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L15 2. https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L31
+1. Didn't produce summary in Arabic in many instances: example: 1. https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L15 2. https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L31 3. https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L191   (but did produce summary in Arabic in a few instances! example: https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L207)
 2. Even Hindi Summary is compromised at times: https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L32 --- text is generated in English only
-3. 
+3. inconsistent format: see code summary generrated in all the target languages for this partcular sample: https://github.com/DrishtiShrrrma/nueva/blob/bf8a5821ebae6b6f9f15a0ce704ee0b1068cee90/prompt_analysis/codegemma/prompt1/all_languages_prompt1_combined_codegemma-7b-it.json#L35
 
