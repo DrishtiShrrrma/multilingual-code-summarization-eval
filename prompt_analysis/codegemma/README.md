@@ -17,8 +17,13 @@ Codegemma:
 
 prompt 0 --- problematic cases:
 hindi: 
-1. https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L16, https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L32  --- ## फ़ंक्शन का सारांश:\n\n* **फ़ंक्शन का नाम:** 
+1. https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L16, https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L32  --- ## फ़ंक्शन का सारांश:\n\n* **फ़ंक्शन का नाम:**
+2. https://github.com/DrishtiShrrrma/nueva/blob/b6632ef8b04580d9867022e96459e38e534d643b/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L64 --- issues: slightly garbled text ; unclear/jumbled summary (ref:TypeError)
+3.  https://github.com/DrishtiShrrrma/nueva/blob/b6632ef8b04580d9867022e96459e38e534d643b/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L160 --- garbled text --- has fragments of text in Chinese/Japanese) 
 
 arabic: 
 1. https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L15 ---- garbled text --- mixed Latin/English/Arabic script
+
+arabic & hindi:
+inconsistent format: example https://github.com/DrishtiShrrrma/nueva/blob/b6632ef8b04580d9867022e96459e38e534d643b/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L271 Vs https://github.com/DrishtiShrrrma/nueva/blob/b6632ef8b04580d9867022e96459e38e534d643b/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L272
 
