@@ -16,6 +16,9 @@ codegemma:
 Codegemma:
 
 prompt 0 --- problematic cases:
+hindi: 
 1. https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L16, https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L32  --- ## फ़ंक्शन का सारांश:\n\n* **फ़ंक्शन का नाम:** 
 
+arabic: 
+1. https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L15 ---- garbled text --- mixed Latin/English/Arabic script
 
