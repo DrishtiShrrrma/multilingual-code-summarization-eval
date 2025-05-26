@@ -8,3 +8,14 @@ codegemma:
 "summary_arabic": "This function, named `Use`, is part of a stack of handlers, which are responsible for routing requests. It takes a handler of type `RouterHandler` as an argument and adds it to the stack. The handlers are executed in the order they are added, so adding a handler at the beginning of the stack will execute it before any other handlers. The main logic involves appending the new handler to the existing list of handlers.<eos>",
 
 2. 
+
+
+
+
+
+Codegemma:
+
+prompt 0 --- problematic cases:
+1. https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L16, https://github.com/DrishtiShrrrma/nueva/blob/e99ddd875d761e187e590fd2779e6cc1ae0c3695/prompt_analysis/codegemma/prompt0/all_languages_prompt0_combined_codegemma-7b-it.json#L32  --- ## फ़ंक्शन का सारांश:\n\n* **फ़ंक्शन का नाम:** 
+
+
