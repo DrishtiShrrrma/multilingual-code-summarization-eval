@@ -1,5 +1,4 @@
-# CodeGemma Multilingual Prompt Evaluation
----
+# CodeGemma Prompt Evaluation
 
 ## Prompt 0: Problematic Cases
 
