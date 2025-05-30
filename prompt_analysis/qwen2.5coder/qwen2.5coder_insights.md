@@ -21,7 +21,7 @@
 - **Garbled Text** — Some summaries contain unintelligible or broken text:  
   [L170](https://github.com/DrishtiShrrrma/nueva/blob/6e7495c2ba1e66e91c6b867f8526cda93a18a5ca/prompt_analysis/qwen2.5coder/prompt1/all_languages_prompt1_combined_Qwen2.5-Coder-7B-Instruct.json#L170)
 
-- **Hindi** — Mediocre Hindi code summary (awkward or incomplete phrasing):  
+- **Hindi** — Mediocre Hindi code summary (awkward phrasing):  
   [L119](https://github.com/DrishtiShrrrma/nueva/blob/6e7495c2ba1e66e91c6b867f8526cda93a18a5ca/prompt_analysis/qwen2.5coder/prompt1/all_languages_prompt1_combined_Qwen2.5-Coder-7B-Instruct.json#L119)
 
 ---
@@ -45,7 +45,7 @@
 
 - **Format mostly consistent**
 
-- **Garbled Text** — Some unintelligible output:  
+- **Garbled Text** — some unintelligible output:  
   [L67](https://github.com/DrishtiShrrrma/nueva/blob/6e7495c2ba1e66e91c6b867f8526cda93a18a5ca/prompt_analysis/qwen2.5coder/prompt3/all_languages_prompt3_combined_Qwen2.5-Coder-7B-Instruct.json#L67)
 
 
