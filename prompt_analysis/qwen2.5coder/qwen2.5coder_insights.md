@@ -17,5 +17,4 @@ prompt 3:
 1. format mostly consistent
 2. grabled text: https://github.com/DrishtiShrrrma/nueva/blob/6e7495c2ba1e66e91c6b867f8526cda93a18a5ca/prompt_analysis/qwen2.5coder/prompt3/all_languages_prompt3_combined_Qwen2.5-Coder-7B-Instruct.json#L67
 3. code summary --- commentary - a bit off
-5.  
-6. 
+   
