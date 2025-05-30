@@ -1,19 +1,38 @@
+# Gemma-2-9B-IT Prompt Evaluation
 
-gema-2-9b-it : prompt 0:
-1. followed instruction(s) a lot better than codegemma, similar to deepseekcoder, didn't find any major issues re;lated to format. employed same format-style across all target-lang (outputs)
-2. https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt0/all_languages_prompt0_combined_gemma-2-9b-it.json#L33 --- Contains a Japanese phrase "引数の" — incoherent mix.
-3. Hindi outputs --- valid but a little verbose
+## Prompt 0: Observations
 
+- ✅ **Followed instructions much better** than CodeGemma; behavior is similar to DeepseekCoder. No major formatting issues observed.  
+  ➤ Consistently used the same format style across all target language outputs.
 
-prompt 1:
-1. followed instruction(s) a lot better than codegemma, similar to deepseekcoder, didn't find any major issues re;lated to format. employed same format-style across all target-lang (outputs)
-2. Hindi, Arabic outputs -- were slightly verbose at times but no major issues
+- **Japanese** — Contains an incoherent mix (e.g., unexpected Japanese phrase "引数の"):  
+  [L33](https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt0/all_languages_prompt0_combined_gemma-2-9b-it.json#L33)
 
-prompt 2: 
-1. Inconsistent format: https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt2/all_languages_prompt2_combined_gemma-2-9b-it.json#L2, https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt2/all_languages_prompt2_combined_gemma-2-9b-it.json#L37
-2. Hindi, Arabic outputs -- were slightly verbose at times but no major issues
+- **Hindi** — Outputs are valid, but slightly verbose
 
+---
 
-prompt 3:
-1. inconsistent format --- https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt3/all_languages_prompt3_combined_gemma-2-9b-it.json#L122, https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt3/all_languages_prompt3_combined_gemma-2-9b-it.json#L139
-2. Hindi, Arabic outputs -- were slightly verbose at times but no major issues
+## Prompt 1
+
+- ✅ **Followed instructions much better** than CodeGemma; behavior is similar to DeepseekCoder.  
+  ➤ No major formatting issues. Format style is consistent across all outputs.
+
+- **Hindi, Arabic** — Slight verbosity observed at times, but not problematic
+
+---
+
+## Prompt 2: Observations
+
+- **Format Inconsistency** — Some formatting issues across outputs:  
+  [L2](https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt2/all_languages_prompt2_combined_gemma-2-9b-it.json#L2), [L37](https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt2/all_languages_prompt2_combined_gemma-2-9b-it.json#L37)
+
+- **Hindi, Arabic** — Slight verbosity observed at times, but otherwise sound
+
+---
+
+## Prompt 3: Observations
+
+- **Format Inconsistency** — Uneven structure across some outputs:  
+  [L122](https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt3/all_languages_prompt3_combined_gemma-2-9b-it.json#L122), [L139](https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt3/all_languages_prompt3_combined_gemma-2-9b-it.json#L139)
+
+- **Hindi, Arabic** — Slight verbosity observed at times, but no major issues
