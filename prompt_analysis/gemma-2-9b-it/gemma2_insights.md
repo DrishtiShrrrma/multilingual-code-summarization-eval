@@ -12,7 +12,7 @@
 
 ---
 
-## Prompt 1
+## Prompt 1:
 
 - **Followed instructions much better than CodeGemma**; behavior is similar to DeepseekCoder.  
   ➤ No major formatting issues. Format style is consistent across all outputs, mostly.
@@ -30,7 +30,7 @@
 
 ---
 
-## Prompt 3: Observations
+## Prompt 3: 
 
 - **Format Inconsistency** — Uneven structure across some outputs:  
   [L122](https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt3/all_languages_prompt3_combined_gemma-2-9b-it.json#L122), [L139](https://github.com/DrishtiShrrrma/nueva/blob/cd4994b7556e94d67c71d84f55911e5aa6895f34/prompt_analysis/gemma-2-9b-it/prompt3/all_languages_prompt3_combined_gemma-2-9b-it.json#L139)
