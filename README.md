@@ -5,5 +5,4 @@
 
 **Intuition:** Hypothesis is that if the metric is sensitive and reliable, we should see a upward trend in eval metric scores as we switch to better backtranslation models. If the scores remain relatively flat or inconsistent or noisy across **models of noticeably different quality** (i.e. poor correlation), it may indicate that the metric lacks sensitivity, raising questions about its reliability!
 
-**Possible RQ:** 
-1. How sensitive and robust are automatic evaluation metrics to the quality of backtranslation models used to generate synthetic hypothesis?
+**Possible RQ:** How sensitive and robust are automatic evaluation metrics to the quality of backtranslation models used to generate synthetic hypothesis?
