@@ -1,4 +1,4 @@
 gemmax2: 
 
-!apt-get update -qq
-!apt-get install -y cmake build-essential libboost-all-dev
+1. !apt-get update -qq
+2. !apt-get install -y cmake build-essential libboost-all-dev
