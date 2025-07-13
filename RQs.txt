@@ -1,0 +1,27 @@
+RQ1:
+Which metrics are suitable for effectively capturing the quality of multilingual code summarization by LLMs?
+→ This focuses on selecting and validating appropriate evaluation metrics like BLEU, ROUGE, METEOR, ChrF++, BERTScore, and SIDE, using translation-based evaluations.
+
+RQ2:
+How does the performance of LLMs vary between different combinations of programming languages and natural languages?
+→ Assesses variation across a 6×6 grid of programming and natural languages to detect challenges related to language mismatch, data sparsity, or code idiom variability.
+
+RQ3:
+Does prompt design influence the quality and consistency of multilingual code summaries?
+→ Compares structured, semi-structured, and few-shot prompts to understand their effects on summary fidelity, consistency, and formatting.
+
+RQ4:
+How consistent are multilingual summaries generated across different LLMs?
+→ Compares outputs from models like Gemma 2, DeepSeek-Coder, and Qwen2.5-Coder using SIDE, BERTScore, and LLM-as-a-judge methods.
+
+RQ5:
+How does the quality of multilingual code summaries vary between direct code-to-non-English translation and a two-step pipeline involving code-to-English followed by English-to-non-English translation?
+→ Evaluates the trade-off between direct multilingual generation vs. generating in English and translating via NMT.
+
+RQ6:
+How reliable are LLM-as-a-judge evaluations compared to other metrics?
+→ Measures the correlation and agreement (e.g., Krippendorff’s α) between LLM-based evaluations and traditional metrics.
+
+RQ7:
+How does code complexity influence the performance of multilingual code summarization?
+→ Analyzes model performance across short, medium, and long functions to study degradation with increasing complexity.
