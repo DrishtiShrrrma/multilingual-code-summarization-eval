@@ -4,8 +4,6 @@
 
 
 
-
-
 Note to self: Completed score computations for llamax3-alpaca-8b, aya-expanse-8b, and towerinstruct-13b-v0.1, as well as for m2m and gemmax2. 
 
 computed scores for m2m specifically to establish a lower-bound baseline.  Goal was to figure out if our top-performing models are achieving certain scores, how much weaker models like m2m deviate or say are far off from that range. This variance could help us understand the signal-to-noise ratio of the evaluation metric: does a meaningful gap exist between weak and strong models? If yes, how much?  I wanted to know how much “lift” in scores we’re getting from the better models. And which metrics are more representative and sensitive to these differences and which ones aren’t? 
